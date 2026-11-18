@@ -1,0 +1,14 @@
+interface:
+  display_name: Design Together
+  short_description: Work through engineering decisions one at a time
+  default_prompt: Use $design-together to work through this system design with me,
+    one decision at a time.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
